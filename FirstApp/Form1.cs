@@ -43,36 +43,65 @@ namespace FirstApp
 
             num1 = Convert.ToInt32(txtBox1.Text);
 
-
-          if ( num1  >= 50 && num1 < 60){
-
-                MessageBox.Show("انت تقديرك مقبول", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
-            else if (num1 >= 60 && num1 < 70)
+            switch (num1)
             {
-                MessageBox.Show("انت تقديرك جيد", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                case 30: {
+                        MessageBox.Show("اجابة خاطئه");
+                        break;
+                    }
+                case 40:
+                    {
+                        MessageBox.Show("اجابة خاطئه");
+                        break;
+                    }
+                case 50:
+                    {
+                        MessageBox.Show("اجابة صحيحه");
+                        break;
+                    }
+                case 70:
+                    {
+                        MessageBox.Show("اجابة خاطئه");
+                        break;
+                    }
+                default: 
+                    {
+                        MessageBox.Show("اجابة خاطئه");
+                        break;
+                    }
             }
-            else if (num1 >= 70 && num1 < 80)
-            {
-                MessageBox.Show("انت تقديرك جيد جدا", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        
 
-            }
-            else if (num1 >= 80 && num1 < 90)
-            {
-                MessageBox.Show("انت تقديرك ممتاز", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            /* if ( num1  >= 50 && num1 < 60){
 
-            }
-            else if (num1 >= 90 )
-            {
-                MessageBox.Show("انت تقديرك ممتاز مع مرتبة الشرف", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                 MessageBox.Show("انت تقديرك مقبول", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            }
-            else{
-                MessageBox.Show("انت لم تنج يا فاشل ", "حاول مره اخري", MessageBoxButtons.OK, MessageBoxIcon.Information);
+             }
+             else if (num1 >= 60 && num1 < 70)
+             {
+                 MessageBox.Show("انت تقديرك جيد", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            }
+             }
+             else if (num1 >= 70 && num1 < 80)
+             {
+                 MessageBox.Show("انت تقديرك جيد جدا", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+             }
+             else if (num1 >= 80 && num1 < 90)
+             {
+                 MessageBox.Show("انت تقديرك ممتاز", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+             }
+             else if (num1 >= 90 )
+             {
+                 MessageBox.Show("انت تقديرك ممتاز مع مرتبة الشرف", "مبروك", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+             }
+             else{
+                 MessageBox.Show("انت لم تنج يا فاشل ", "حاول مره اخري", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+             } */
+
 
 
 
