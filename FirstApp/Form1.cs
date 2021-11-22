@@ -41,9 +41,15 @@ namespace FirstApp
         private void btn_add_Click(object sender, EventArgs e)
         {
 
-            num1 = Convert.ToInt32(txtBox1.Text);
+          //  num1 = Convert.ToInt32(txtBox1.Text);
 
-            switch (num1)
+             for (int i = 0; i< 10; i++){
+                MessageBox.Show("value of "+i+" from 10");
+            } 
+            
+          
+            
+            /*   switch (num1)
             {
                 case 30: {
                         MessageBox.Show("اجابة خاطئه");
@@ -68,8 +74,8 @@ namespace FirstApp
                     {
                         MessageBox.Show("اجابة خاطئه");
                         break;
-                    }
-            }
+                    } */
+            
         
 
             /* if ( num1  >= 50 && num1 < 60){
